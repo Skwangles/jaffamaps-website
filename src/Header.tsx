@@ -3,14 +3,14 @@ import logo from './assets/logo.svg'
 
 const Header = React.forwardRef<HTMLElement, {}>((_props, ref) => (
   <section
-    className="navseego-header fade-section"
+    className="campusvirtual-header fade-section"
     ref={ref as React.RefObject<HTMLElement>}
   >
-    <div className="navseego-title-row">
-      <img src={logo} alt="Navseego logo" className="navseego-logo" />
-      <h1 className="navseego-title">CampusVirtual</h1>
+    <div className="campusvirtual-title-row">
+      <img src={logo} alt="CampusVirtual logo" className="campusvirtual-logo" />
+      <h1 className="campusvirtual-title">CampusVirtual</h1>
     </div>
-    <p className="navseego-subtitle">
+    <p className="campusvirtual-subtitle">
       Large-scale Low-cost Panoramic Virtual Tours
     </p>
   </section>

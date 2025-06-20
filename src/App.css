@@ -24,7 +24,7 @@ html,
   z-index: 1;
 }
 
-.navseego-header {
+.campusvirtual-header {
   position: relative;
   z-index: 2;
   display: flex;
@@ -34,21 +34,22 @@ html,
   text-align: center;
 }
 
-.navseego-title-row {
+.campusvirtual-title-row {
   display: flex;
   align-items: baseline;
   justify-content: center;
   gap: 1.2rem;
   margin-bottom: 0.5rem;
+  flex-wrap: wrap;
 }
-.navseego-logo {
+.campusvirtual-logo {
   width: 56px;
   height: 56px;
   display: block;
   margin-top: 0.25em;
 }
 
-.navseego-title {
+.campusvirtual-title {
   font-size: 3.5rem;
   font-weight: 800;
   color: #222;
@@ -56,9 +57,10 @@ html,
   font-family: 'Inter', Arial, sans-serif;
   letter-spacing: -1px;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  line-height: 1.1;
 }
 
-.navseego-subtitle {
+.campusvirtual-subtitle {
   font-size: 1.4rem;
   color: #333;
   font-weight: 400;
@@ -321,17 +323,40 @@ html,
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
 }
 
+@media (max-width: 768px) {
+  .campusvirtual-title {
+    font-size: 2.8rem;
+  }
+  .campusvirtual-subtitle {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 600px) {
-  .navseego-title {
+  .campusvirtual-title {
     font-size: 2.2rem;
   }
-  .navseego-subtitle {
+  .campusvirtual-subtitle {
     font-size: 1rem;
+  }
+  .campusvirtual-logo {
+    width: 42px;
+    height: 42px;
   }
   .fade-section {
     padding: 1.2rem 0.5rem;
   }
   .features-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .campusvirtual-title {
+    font-size: 1.8rem;
+  }
+  .campusvirtual-logo {
+    width: 36px;
+    height: 36px;
   }
 }

@@ -4,10 +4,10 @@ const WhyUs = React.forwardRef<HTMLElement, {}>((_props, ref) => (
   <section className="fade-section" ref={ref as React.RefObject<HTMLElement>}>
     <h2>Why us?</h2>
     <p>
-      Navseego stands out for its ease of use, scalability, and accessibility.
-      Our technology is designed to be rapidly deployable and customisable for
-      any environment, ensuring that everyone can find their way with
-      confidence.
+      CampusVirtual stands out for its ease of use, scalability, and
+      accessibility. Our technology is designed to be rapidly deployable and
+      customisable for any environment, ensuring that everyone can find their
+      way with confidence.
     </p>
     <p>
       We are passionate about making navigation effortless and inclusive,

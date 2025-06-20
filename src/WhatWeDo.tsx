@@ -23,7 +23,7 @@ const WhatWeDo = React.forwardRef<HTMLElement, {}>((_props, ref) => {
       <p>
         Compared to existing virtual tour technology, CampusVirtual offers a
         large-scale and more straightforward creation process. In short,
-        Navseego enables users to create virtual tours of any size and
+        CampusVirtual enables users to create virtual tours of any size and
         complexity with ease.
       </p>
       <div className="video-container">
@@ -77,14 +77,14 @@ const WhatWeDo = React.forwardRef<HTMLElement, {}>((_props, ref) => {
         <div className="feature-card">
           <h3>Mobile-friendly</h3>
           <p>
-            Navseego is usable even on mobile devices, making it easy to use on
-            the go.
+            CampusVirtual is usable even on mobile devices, making it easy to
+            use on the go.
           </p>
         </div>
         <div className="feature-card">
           <h3>Accessibility</h3>
           <p>
-            Navseego is accessible to people with disabilities, providing a
+            CampusVirtual is accessible to people with disabilities, providing a
             seamless experience for everyone, even allowing searches for
             step-free routes.
           </p>
