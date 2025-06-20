@@ -9,10 +9,34 @@ const cloudSVG = (
     style={{ display: 'block' }}
   >
     <g transform="translate(-11.239937,-11.583056)">
-      <ellipse style={{ fill: '#e5f3f3', fillOpacity: 1 }} cx="28.140257" cy="37.402676" rx="16.90032" ry="15.153963" />
-      <ellipse style={{ fill: '#e5f3f3', fillOpacity: 1 }} cx="52.834064" cy="30.326216" rx="18.046013" ry="18.869041" />
-      <ellipse style={{ fill: '#e5f3f3', fillOpacity: 1 }} cx="52.812" cy="33.403309" rx="18.046013" ry="18.869041" />
-      <rect style={{ fill: '#e5f3f3', fillOpacity: 1 }} width="25.762741" height="9.1684961" x="26.52182" y="43.215042" />
+      <ellipse
+        style={{ fill: '#e5f3f3', fillOpacity: 1 }}
+        cx="28.140257"
+        cy="37.402676"
+        rx="16.90032"
+        ry="15.153963"
+      />
+      <ellipse
+        style={{ fill: '#e5f3f3', fillOpacity: 1 }}
+        cx="52.834064"
+        cy="30.326216"
+        rx="18.046013"
+        ry="18.869041"
+      />
+      <ellipse
+        style={{ fill: '#e5f3f3', fillOpacity: 1 }}
+        cx="52.812"
+        cy="33.403309"
+        rx="18.046013"
+        ry="18.869041"
+      />
+      <rect
+        style={{ fill: '#e5f3f3', fillOpacity: 1 }}
+        width="25.762741"
+        height="9.1684961"
+        x="26.52182"
+        y="43.215042"
+      />
     </g>
   </svg>
 )
@@ -36,4 +60,4 @@ const CloudsBackground = () => (
   </div>
 )
 
-export default CloudsBackground; 
+export default CloudsBackground
